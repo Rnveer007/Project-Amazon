@@ -1,0 +1,202 @@
+@media screen and (min-width: 320px) and (max-width:570px) {
+
+    .navbar_top {
+
+        /* flex-wrap: wrap; */
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
+        align-items: center;
+        /* position: relative; */
+    }
+
+    .nav_logo {}
+
+    .location {
+        display: none;
+    }
+
+    .navbar_bottom ul,
+    .mirjapur_logo {
+        display: none;
+    }
+
+    #search_bar {
+        width: 336px;
+        align-items: center;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+
+    #search_bar::placeholder {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .language_point {
+        font-size: 8px;
+        display: none;
+    }
+
+    .sign_in {
+        font-size: 8px;
+        display: none;
+
+    }
+
+    .order_info {
+        font-size: 8px;
+        display: none;
+
+    }
+
+    .cart {
+        font-size: 8px;
+
+    }
+
+
+    .navbar_bottom ul li {}
+
+    /* .top_section {
+        height: 90vh;
+    } */
+
+    .top_section {
+        height: 100vh;
+    }
+
+    .top_section_logo {
+        width: 100%;
+    }
+
+    .top_section_logo img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .top_section_container {
+        position: unset;
+        width: 100%;
+    }
+
+    .top_section_container_part_1 {
+        width: 48%;
+    }
+
+    .top_section_container_part_1:nth-child(3) {
+        display: none;
+    }
+
+    .top_section_container_part_1:nth-child(4) {
+        display: none;
+    }
+    .top_section_heading {
+        padding-left: 20px;
+    }
+
+    .top_section_heading h1 {
+        font-size: 12px;
+        text-align: left;
+        width: 150px;
+    }
+
+    .top_section_box p {
+        font-size: 10px;
+    }
+
+    .image_gallary:nth-child(2) {
+        margin-top: 50px;
+    }
+
+
+    .image_gallary_box {
+        /* margin-top: 100px; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_gallary_heading {
+        flex-direction: column;
+    }
+
+    .image_gallary_heading h1 {
+        font-size: 12px;
+    }
+
+    .image_gallary_heading h1 {
+        display: block;
+    }
+
+    .advertise_logo {
+        width: 330px;
+    }
+
+    .advertise_logo img {
+        width: 100%;
+    }
+
+
+    .clothing_section {
+        flex-direction: column;
+        align-items: center
+        ;
+    }
+
+    .top_section_box:nth-child(3) {
+        display: none;
+    }
+
+    .top_section_box:nth-child(4) {
+        display: none;
+    }
+
+    .image_gallary_box_logo_3 {
+        display: none;
+    }
+
+    .image_gallary_box_logo_4 {
+        display: none;
+    }
+
+    .image_gallary_box_logo_6 {
+        display: none;
+    }
+
+    .clothing_section_box{
+        margin: 10px 0;
+        width: 326px;
+    }
+
+    .clothing_section_logo_container {
+        margin: 10px 0;
+    }
+
+    .clothing_section_logo {
+        width: 115px;
+        margin: auto;
+    }
+
+    .clothing_section_logo img{
+        width: 100%;
+    
+    }
+
+    
+    .bottom_section_container{
+        height: 80vh;
+    }
+.bottom_section_box_3{
+    display: none;
+}
+
+.language_regin_secion{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.amazon_logo {
+    margin: 10px 0;
+}
+
+}
